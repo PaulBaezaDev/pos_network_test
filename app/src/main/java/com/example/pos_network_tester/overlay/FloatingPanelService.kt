@@ -255,7 +255,7 @@ class FloatingPanelService : Service() {
         val notification: Notification = NotificationCompat.Builder(this, NOTIFICATION_CHANNEL_ID)
             .setContentTitle("POS Network Tester activo")
             .setContentText("Panel de diagnóstico de red visible sobre otras apps")
-            .setSmallIcon(R.drawable.ic_launcher_foreground)
+            .setSmallIcon(R.mipmap.ic_launcher)
             .setContentIntent(contentIntent)
             .setOngoing(true)
             .build()
